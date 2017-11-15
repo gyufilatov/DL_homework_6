@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Георгий Филатов"
+  },
+  "text": {
+    "more": "Всего было выделено 14  групп, из которых только три содержат двух и более лиц.\nЭто связано с тем, что три большие группы представляют собой людей с которыми я учился в разных учебных заведениях. Соответственно, они также были знакомы между собой.\nОстальные 11 групп представляют собой отдельных людей, незнакомых друг с другом.\n\"Бледно-синий\" - одногруппники из ВШЭ.\n\"Зеленый\" - одноклассники.\n\"Оранжевый\" - одногруппники из МИФИ.",
+    "intro": "Данный граф являлется результатом анализа списка моих друзей в социальной сети Вконтакте.\n(Подробней в \"More about this visualisation\")",
+    "title": "Друзья Вк"
+  },
+  "legend": {
+    "edgeLabel": "Связи между друзьями",
+    "colorLabel": "Разделение на группы",
+    "nodeLabel": "Друзья Вк"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
